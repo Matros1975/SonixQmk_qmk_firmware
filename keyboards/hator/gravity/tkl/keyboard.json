@@ -6,8 +6,8 @@
     "bootloader": "sn32-dfu",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0200",
-        "vid": "0x4853"
+        "pid": "0x0606",
+        "vid": "0x379A"
     },
     "processor": "SN32F248BF",
     "diode_direction": "COL2ROW",

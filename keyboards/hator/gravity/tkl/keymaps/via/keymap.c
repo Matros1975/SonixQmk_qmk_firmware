@@ -58,7 +58,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                 {   _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,   _______,   _______,   _______,  _______,    KC_NO,  _______,  RGB_SPI },
                 {   _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,   _______,   _______,     KC_NO,  _______,    KC_CONTROL_PANEL,  _______,    KC_NO },
                 {   _______,    KC_NO,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,   _______,   _______,     KC_NO,  _______,  _______,  KC_VOLU,  RGB_SAI },
-                {   _______,  KC_LALT,  KC_LGUI,    KC_NO,    KC_NO,    KC_NO,  _______,    KC_NO,    KC_NO,    KC_NO,   _______,   _______,   _______,  _______,  RGB_MODE_REVERSE,   KC_VOLD,    RGB_MODE_FORWARD }
+                {   _______,  KC_LALT,  KC_LGUI,    KC_NO,    KC_NO,    KC_NO,  NK_TOGG,    KC_NO,    KC_NO,    KC_NO,   _______,   _______,   _______,  _______,  RGB_MODE_REVERSE,   KC_VOLD,    RGB_MODE_FORWARD }
             },
 
 };
@@ -70,4 +70,4 @@ bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
         RGB_MATRIX_INDICATOR_SET_COLOR(13, 0, 0, 0);
     }
     return false;
-} 
+}
