@@ -50,7 +50,7 @@
             "splash": true,
             "solid_splash": true
         },
-        "driver": "sn32f24xb",
+        "driver": "sn32f2xx",
         "layout": [
             { "matrix": [ 0, 0 ], "flags": 4, "x": 0, "y": 0 },
             { "matrix": [ 0, 1 ], "flags": 4, "x": 26, "y": 0 },
